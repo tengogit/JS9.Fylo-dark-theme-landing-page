@@ -1,0 +1,157 @@
+@media(min-width:768px) {
+    body {
+        background-image: url(./assets/cont-bg-tab.png);
+        background-position: center 822px;
+    }
+
+    .cont {
+        width: 100%;
+        max-width: 768px;
+        padding: 80px 54px 64px 54px;
+
+
+    }
+
+    .header-nav ul {
+        gap: 48px;
+    }
+
+    .header-nav ul a {
+        font-size: 16px;
+    }
+
+    .header-img {
+        margin-bottom: 64px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+    h6{
+    font-size: 37px;
+    }
+
+    h1+p {
+        font-size: 20px;
+        margin: 0 35px;
+    }
+
+    button[type=submit] {
+        height: 56px;
+        margin-top: 48px;
+    }
+
+    main {
+        margin-top: 150px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+    }
+
+    .mainbox p {
+        margin: 0 25px;
+    }
+
+    section {
+        margin-top: 120px;
+        gap: 72px;
+
+    }
+
+    .section-txt {
+        margin-left: 40px;
+    }
+
+    h3 {
+        font-size: 37px;
+    }
+
+    section a {
+        margin-top: 24px;
+    }
+
+    article {
+        width: 480px;
+        gap: 40px;
+
+
+    }
+
+    .article-box {
+        padding: 43.5px 40px;
+
+    }
+
+    .stuff {
+        margin-top: 24px;
+    }
+
+    article p {
+        font-size: 14px;
+        line-height: 180%;
+    }
+
+    .article-logo {
+        left: -45px;
+        top: -50px;
+
+    }
+
+    .stuff p {
+        font-size: 10px;
+    }
+
+.form button{
+    margin-top: 0;
+}
+.sign-up{
+    width: 480px;
+    padding: 48px 40px;
+}
+input,.form button{
+    width: 400px;
+}
+footer{
+    height: 640px;
+}
+.footer-box{
+    width: 661px;
+    height: 319px;
+    gap: 56px;
+  
+}
+.footer-box1-info{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content:space-between;
+    column-gap: 160px;
+}
+.footer-box1-info a{
+   gap: 24px;
+}
+.last-div{
+    width: 615px;
+    height: 104px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-nav{
+    height: 104px;
+    width: auto;
+width: 363px;
+margin-top: 0;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+column-gap: 80px;
+}
+.footer-nav div{
+    margin-top: 0;
+}
+address{
+    margin-left: 0;
+    align-items: flex-start;
+   
+}
+
+}

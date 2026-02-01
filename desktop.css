@@ -1,0 +1,98 @@
+@media(min-width:1440px) {
+    body {
+       
+        background-image: url(./assets/cont-bg-des.png);
+        background-size: cover;
+        background-position: center 788px;
+
+    }
+
+    .cont {
+        max-width: 100vw;
+         padding: 80px 80px 56px 56px;
+
+    }
+
+    .header-nav ul {
+        gap: 56px;
+    }
+
+    .header-img {
+        margin-bottom: 56px;
+    }
+
+    .header-txt {
+        width: 589px;
+        margin: 0 auto;
+    }
+
+    main {
+        margin-top: 156px;
+    }
+
+    .mainbox p {
+        margin: 0 221px;
+    }
+
+    section {
+        margin-top: 156px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 56px;
+    }
+
+    article {
+        width: 1280px;
+        padding: 0 41px;
+        margin-top: 120px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+.sign-up{
+    width: 863px;
+    padding: 48px 80px;
+}
+.form{
+    display: flex;
+    font-display: row;
+    align-items: center;
+    gap: 24px;
+    height: auto;
+    position: relative;
+}
+input{
+    width: 480px;
+
+}
+.form button{
+    width: 200px;
+    padding: 16px 24px;
+    height: 48px;
+}
+h6{
+    font-size: 40px;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+a:hover{
+    cursor: pointer;
+    font-weight: 900;
+}
+address a:hover{
+transform: scale(1.2);
+}
+.show-empty{
+position: relative;
+top: 50px;
+left: -550px;
+
+}
+.show-error{
+    position: relative;
+    top: 50px;
+    left: -480px;
+  
+}
+}

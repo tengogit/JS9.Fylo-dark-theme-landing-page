@@ -22,9 +22,10 @@
 
 body {
     user-select: none;
-    height: 100dvh;
+    min-height: 100dvh;
     overflow-x: hidden;
     overflow-y: auto;
+    scroll-behavior: smooth;
     background-color: var(--body-bg);
     font-family: "Raleway", sans-serif;
     background-image: url(./assets/cont-bg-mob.svg);
